@@ -1,4 +1,4 @@
-# ESPIT_ISAC
+# PM-Enabled ISAC System
 
 This is the open-source MATLAB code to generate the numerical results in the paper "Programmable-Metasurface-Enabled ISAC Systems: Detection-Information Performance Limits and Waveform Design" by Zi-Jie Wang, Xudong Wang, and Zhi Ning Chen.
 
