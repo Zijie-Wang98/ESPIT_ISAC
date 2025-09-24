@@ -22,7 +22,7 @@ end
 %%% expected PD
 
 et = [1-2j;2+3j;3+5j];
-et = et/vecnorm(et);
+et = et/vecnorm(et);    % et can be any normalized 3-D vector 
 iter_num = 10000;
 PD_exp = zeros(length(b),length(SNR));
 for i = 1:iter_num
