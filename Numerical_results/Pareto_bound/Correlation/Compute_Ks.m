@@ -10,23 +10,15 @@ Krr = Compute_K_integral(r,r);
 sx = -Lx/2+(0.5+0:sqrt(N-1))*Lx/sqrt(N);
 sy = -Ly/2+(0.5+0:sqrt(N-1))*Ly/sqrt(N);
 
-%%% calculate \bar{g}(r)
-gain = 0;
-for i = 1:sqrt(N)
-    for j = 1:sqrt(N)
-        gain = gain+(4*pi*vecnorm([sx(i);sy(j);0]-r))^(-2);
-    end
-end
-
 pho = max(eig(Kur))/sqrt(max(eig(Krr))*max(eig(Kuu)));
 abs(pho)
 
-save('Kmatrix_values3.mat',"Kuu","Krr","Kur","gain","pho",'-mat');
+save('Kmatrix_values3.mat',"Kuu","Krr","Kur","pho",'-mat');
 
 function I = Compute_K_integral(r1,r2)    
     % integral mesh
     run("../../Parameter_setting.m");
-    N_num = 1e3;
+    N_num = 1e4;
     sx_vals = linspace(-Lx/2, Lx/2, N_num);
     sy_vals = linspace(-Ly/2, Ly/2, N_num);
 
