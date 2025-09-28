@@ -2,7 +2,7 @@ clc,clear all,close all
 run("../Parameter_setting.m");
 
 
-SNR_dB = 35:1:55;        % SNR = |et(rs)|^2/noise_var
+SNR_dB = 45:0.5:55;        % SNR = |et(rs)|^2/noise_var
 SNR = 10.^(SNR_dB/10);
 
 %%% analytical PD
