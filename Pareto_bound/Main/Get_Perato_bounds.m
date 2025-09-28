@@ -15,4 +15,12 @@ end
 cd Pareto_bound/Main
 R = log2(1+mags_eu/noise_var);
 
+Pfa_list = [1e-4, 10^(-4.5), 1e-5, 10^(-5.5)];
+lambda = 2*gain_2*abs(ro)^2*mags_er./(gain_2*sigma_ro2*mags_er+noise_var); 
+eta_original = 2./(gain_2*sigma_ro2*mags_er+noise_var);                     %% eta'/eta
+for l = 1:length(Pfa_list)
+    PD(l,:) = marcumq(sqrt(lambda),sqrt(eta_original*eta(l)),3);
+end
+
+
 save('Pareto.mat','-mat');
