@@ -2,7 +2,7 @@
 
 This is the open-source MATLAB code to generate the numerical results in the paper "Programmable-Metasurface-Enabled ISAC Systems: Detection-Information Performance Limits and Waveform Design" by Zi-Jie Wang, Xudong Wang, and Zhi Ning Chen.
 
-***The scripts for figure plots are not included.*** All rights reserved @ Shanghai Jiao Tong University and National University of Singapore.
+*****The scripts for figure plots are not included.***** All rights reserved @ Shanghai Jiao Tong University and National University of Singapore.
 
 To obtain numerical results for Fig. 2, please run "PD_lambda/analytical.m";
 
