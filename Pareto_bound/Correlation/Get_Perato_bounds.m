@@ -1,3 +1,7 @@
+%%% Note: The scripts for figure plots are not included.
+%%% Note: The scripts for figure plots are not included.
+%%% Note: The scripts for figure plots are not included.
+
 clc,clear all
 run("../../Parameter_setting.m");
 
