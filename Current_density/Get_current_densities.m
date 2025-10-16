@@ -1,3 +1,7 @@
+%%% Note: The scripts for figure plots are not included.
+%%% Note: The scripts for figure plots are not included.
+%%% Note: The scripts for figure plots are not included.
+
 run("../Parameter_setting.m");
 N_num = 5e2;
 sx_vals = linspace(-Lx/2, Lx/2, N_num);
