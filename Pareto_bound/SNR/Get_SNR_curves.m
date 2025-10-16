@@ -1,3 +1,7 @@
+%%% Note: The scripts for figure plots are not included.
+%%% Note: The scripts for figure plots are not included.
+%%% Note: The scripts for figure plots are not included.
+
 run("../../Parameter_setting.m");
 load("../../Kmatrix_values.mat");
 
