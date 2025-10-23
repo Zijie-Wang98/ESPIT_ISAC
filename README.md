@@ -1,6 +1,6 @@
 # PM-Enabled ISAC System
 
-This is the open-source MATLAB code to generate the numerical results in the paper "Programmable-Metasurface-Enabled ISAC Systems: Detection-Information Performance Limits and Waveform Design" by Zi-Jie Wang, Xudong Wang, and Zhi Ning Chen.
+This is the open-source MATLAB code to generate the numerical results in the paper "On the Fundamental Detection-Rate Performance Limits and Pareto-Optimal Waveform Design in Programmable-Metasurface-Enabled ISAC Systems" by Zi-Jie Wang, Xudong Wang, and Zhi Ning Chen.
 
 Note: *****The scripts for figure plots are not included.***** All rights reserved @ National University of Singapore and Shanghai Jiao Tong University.
 
