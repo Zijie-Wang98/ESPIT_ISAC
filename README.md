@@ -2,7 +2,7 @@
 
 This is the open-source MATLAB code to generate the numerical results in the paper "On the Fundamental Detection-Rate Performance Limits and Pareto-Optimal Waveform Design in Programmable-Metasurface-Enabled ISAC Systems" by Zi-Jie Wang, Xudong Wang, and Zhi Ning Chen.
 
-Note: *****These scripts only generate raw numerical data for all figures. Plotting scripts are not included; readers may visualize the results using straightforward and standard MATLAB plotting commands if desired.***** All rights reserved @ National University of Singapore and Shanghai Jiao Tong University.
+Note: ***These scripts only generate raw numerical data for all figures. Plotting scripts are not included; readers may visualize the results using straightforward and standard MATLAB plotting commands if desired.*** All rights reserved @ National University of Singapore and Shanghai Jiao Tong University.
 
 To obtain numerical results for Fig. 2, please run "PD_lambda/analytical.m";
 
